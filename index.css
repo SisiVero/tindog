@@ -19,7 +19,7 @@ img{
 }
 
  .dog{
-  margin: 1em;
+  margin: 3em 1em 1em 1em;
   height: 100vh;
   position: relative;
   display: flex;
