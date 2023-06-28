@@ -7,13 +7,19 @@ main, header{
     margin:0 auto 2em auto;
 }
 
+@media (max-width: 550px){
+
 img{
     width: 100%;
 }
     
-    nav{
-        height: 60px;
-    }
+   nav{
+    display:flex;
+    justify-content: space-between;
+    padding:1.5em 1em;
+    height: 100px;
+
+}
 .nav-prop{
     width:10vw;
 }
@@ -22,6 +28,10 @@ img{
 .paw{
     width:25vw;
 }  
+
+.profile:hover{
+      cursor: pointer;
+}
 
 .name-age{
     font-size: 2rem;
@@ -41,7 +51,23 @@ img{
      border-radius: 15px;
     margin:0.5em ;
     padding: 1em;
+      position: relative;
  }
+
+.dog-bio{
+align-self: flex-end;
+}
+.dog-badge{
+position: absolute;
+top:0;
+left:0;
+right:275;
+height: 100px;
+width: 200px;
+rotate: -30deg;
+margin: 2.5em 0 0 0.5em;
+}
+
 
 button{
     background-color: white;
@@ -59,8 +85,31 @@ justify-content: center;
 margin:1.5em 0;
 }
 
+.react{
+    height:40px;
+    width: 40px;
+}
+
 .nope{
 margin-right: 1.5em;
 }
 
+button,
+button:active,
+button:focus {
+  outline: none;
+}
 
+.nope:hover{
+    background: #FFE7EF;
+}
+
+.like:hover{
+    background: #DBFFF4;
+}
+    
+h3,
+p{
+    margin:0;
+}
+}
