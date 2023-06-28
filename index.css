@@ -1,4 +1,4 @@
-
+@media (max-width:550px) {
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -112,4 +112,4 @@ h3,
 p{
     margin:0;
 }
-
+}
