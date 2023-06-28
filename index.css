@@ -7,7 +7,7 @@ main, header{
     margin:0 auto 2em auto;
 }
 
-@media (max-width: 550px){
+
 
 img{
     width: 100%;
@@ -112,4 +112,4 @@ h3,
 p{
     margin:0;
 }
-}
+
