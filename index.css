@@ -4,24 +4,22 @@ body{
     margin: 0;
 }
 main, header{
-    margin:0 auto;
+    margin:0 auto 2em auto;
 }
 nav{
     display:flex;
     justify-content: space-between;
     padding:1.5em 1em;
     height: 100px;
-    margin-bottom: 2em;
+
 }
 
 
-img{
-    width: 100%;
-}
+
 
  .dog{
   margin: 3em 1em 1em 1em;
-  height: 100vh;
+  height: 80vh;
   position: relative;
   display: flex;
   border-radius: 20px;
@@ -49,11 +47,7 @@ p{
     color:#F8F8F8;
 }
 
-.bio{ 
-    font-size:1.5rem;
-    color:#B7B7B7;
-    margin-bottom: 0.5em;
-}
+
 button{
     background-color: white;
     border-radius: 50%;
@@ -119,9 +113,15 @@ margin: 2.5em 0 0 0.5em;
 .paw{
     width: 30vw;
 }
-
+img{
+    width: 50%;
+}
 
 @media (max-width: 550px){
+img{
+    width: 100%;
+}
+    
     nav{
         height: 60px;
     }
