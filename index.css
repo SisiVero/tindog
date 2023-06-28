@@ -6,118 +6,7 @@ body{
 main, header{
     margin:0 auto 2em auto;
 }
-nav{
-    display:flex;
-    justify-content: space-between;
-    padding:1.5em 1em;
-    height: 100px;
 
-}
-
-
-
-
- .dog{
-  margin: 3em 1em 1em 1em;
-  height: 80vh;
-  position: relative;
-  display: flex;
-  border-radius: 20px;
-  padding: 1em;
- }
- 
- .dog-bio{
-align-self: flex-end;
-}
-
-.bio{ 
-    font-size:1.5rem;
-    color:#B7B7B7;
-    margin-bottom: 1em;
-}
-
-h3,
-p{
-    margin:0;
-}
-
-.name-age{
-    font-size: 2rem;
-    font-weight: 400;
-    color:#F8F8F8;
-}
-
-
-button{
-    background-color: white;
-    border-radius: 50%;
-    border: none;
-    box-shadow: 0px 10px 20px #E9E9EA;
-    width: 90px;
-    height: 90px;
-    cursor: pointer;
-}
-
-.button-cont{
-display: flex;
-justify-content: center;
-margin:1.5em 0;
-}
-
-.react{
-    height:40px;
-    width: 40px;
-}
-
-.nope{
-    margin-right: 2em;
-}
-
-.react{
-    height:40px;
-    width: 40px;
-}
-button,
-button:active,
-button:focus {
-  outline: none;
-}
-
-.nope:hover{
-    background: #FFE7EF;
-}
-
-.like:hover{
-    background: #DBFFF4;
-}
-
-.dog-badge{
-position: absolute;
-top:0;
-left:0;
-right:275;
-height: 100px;
-width: 200px;
-rotate: -30deg;
-margin: 2.5em 0 0 0.5em;
-}
-
-.profile:hover{
-      cursor: pointer;
-}
-
-.nav-prop{
-    width: 15vw;
-    }
-
-.paw{
-    width: 30vw;
-}
-img{
-    width: 50%;
-}
-
-@media (max-width: 550px){
 img{
     width: 100%;
 }
@@ -174,4 +63,4 @@ margin:1.5em 0;
 margin-right: 1.5em;
 }
 
-}
+
