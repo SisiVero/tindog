@@ -139,6 +139,7 @@ margin: 1.5em 0 0 1.5em;
  
  .dog{
      height: 50vh;
+     width: 100%;
      display:flex;
      border-radius: 15px;
     margin:0 auto;
