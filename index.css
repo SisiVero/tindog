@@ -101,7 +101,7 @@ button:focus {
 .dog-badge{
 position: absolute;
 top:0;
-left:0.5;
+left:2;
 height: 100px;
 width: 100px;
 rotate: -30deg;
@@ -168,7 +168,7 @@ margin-right: 1.5em;
 .dog-badge{
 position: absolute;
 top:0;
-left:0.5em;
+left:1.5;
 height: 50vh;
 width: 50%;
 rotate: -30deg;
